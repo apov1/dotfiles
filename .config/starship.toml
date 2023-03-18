@@ -1,0 +1,38 @@
+# disable starship from forcing a new line to be taken. Solved the empty line 
+# at start of terminal
+add_newline = false
+command_timeout = 5000
+
+[battery]
+disabled = true
+
+[character]
+success_symbol = "[λ](bold #17A404) "
+error_symbol = "[✘](bold #AF0E03) "
+
+[directory]
+style = "bold italic #3FC7D4"
+
+[git_branch]
+symbol = ""
+
+[status]
+disabled = false
+symbol = "code "
+style = "bold #AF0E03"
+
+[time]
+disabled = false
+format = "[$time]($style) "
+style = "bold #FB5DBA"
+
+[username]
+show_always = true
+style_user = "bold #3FC7D4"
+format = "[$user@]($style)"
+
+[hostname]
+ssh_only = false
+trim_at = ""
+format = "[$hostname]($style) in "
+style = "bold #3FC7D4"
