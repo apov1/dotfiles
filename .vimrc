@@ -8,6 +8,7 @@ set showmatch
 set autoindent
 set smartindent
 set cursorline
+set termguicolors
 
 set shell=/bin/bash
 
@@ -35,11 +36,11 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Bundle 'sonph/onehalf', {'rtp': 'vim/'}
+Plugin 'romgrk/doom-one.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme onehalfdark
+colorscheme doom-one
 

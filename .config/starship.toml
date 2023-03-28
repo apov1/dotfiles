@@ -11,7 +11,7 @@ success_symbol = "[λ](bold #17A404) "
 error_symbol = "[✘](bold #AF0E03) "
 
 [directory]
-style = "bold italic #3FC7D4"
+style = "bold italic #46D9FF"
 
 [git_branch]
 symbol = ""
@@ -28,11 +28,11 @@ style = "bold #FB5DBA"
 
 [username]
 show_always = true
-style_user = "bold #3FC7D4"
+style_user = "bold #51AFEF"
 format = "[$user@]($style)"
 
 [hostname]
 ssh_only = false
 trim_at = ""
 format = "[$hostname]($style) in "
-style = "bold #3FC7D4"
+style = "bold #51AFEF"

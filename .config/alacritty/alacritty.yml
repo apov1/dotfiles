@@ -1,0 +1,41 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+# Import additional configuration files
+# - color scheme
+import:
+  - ~/.config/alacritty/doom_one.yml
+
+window:
+  # Add 5 pixels padding to each side
+  padding:
+    x: 5
+    y: 5
+  # Full opacity
+  opacity: 1.0
+  # Start in windowed mode
+  startup_mode: Windowed
+  # Window title
+  title: Alacritty
+  # Allow terminal applications to change Alacritty's window title.
+  dynamic_title: true
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  history: 10000
+  # Scrolling distance multiplier.
+  multiplier: 3
+
+selection:
+  save_to_clipboard: false
+
+cursor:
+  # Cursor style
+  style:
+    # Cursor shape
+    #   - ▇ Block
+    shape: Block
+    # Cursor blinking state
+    blinking: Off
+
+# Live config reload (changes require restart)
+live_config_reload: true
